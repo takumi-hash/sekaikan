@@ -22,34 +22,55 @@
             <h2 class="font-weight-light display-4">Manatee</h2>
             <p>I am Manatee!</p>
             <p class="profile-btn">
-                <a class="btn btn-success display-block" href="#">Web Page</a>
-                <a class="btn btn-warning" href="#">Github</a>
-                <a class="btn btn-info" href="#">Facebook</a></p>
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
         <div class="column p-3" id="maho">
             <h2 class="font-weight-light display-4">Maho</h2>
             <p>I love coffee!</p>
-            <p class="profile-btn"><a class="btn btn-info" href="#">Web Page</a></p>
+            <p class="profile-btn">
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
         <div class="column p-3" id="saaya">
             <h2 class="font-weight-light display-4">Saaya</h2>
             <p>I can speak Korean.</p>
-            <p class="profile-btn"><a class="btn btn-info" href="#">Web Page</a></p>
+            <p class="profile-btn">
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
         <div class="column p-3" id="jun">
             <h2 class="font-weight-light display-4">Jun</h2>
-            <p>My Japanese is pretty good.</p>
-            <p class="profile-btn"><a class="btn btn-info" href="#">Web Page</a></p>
+            <p>Call me Oppa.</p>
+            <p class="profile-btn">
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
         <div class="column p-3" id="takumi">
             <h2 class="font-weight-light display-4">Takumi</h2>
             <p>I love movies.</p>
-            <p class="profile-btn"><a class="btn btn-info" href="#">Web Page</a></p>
+            <p class="profile-btn">
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
         <div class="column p-3" id="erika">
             <h2 class="font-weight-light display-4">Erika</h2>
             <p>Call me beth.</p>
-            <p class="profile-btn"><a class="btn btn-info" href="#">Web Page</a></p>
+            <p class="profile-btn">
+                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+            </p>
         </div>
     </div>
     <!-- Optional JavaScript -->

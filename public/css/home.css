@@ -86,6 +86,6 @@ h1 {
 }
 
 .profile-btn {
-    position: absolute;
-    bottom: 5vh;
+    margin-top: 40vh;
+    width: 8vw;
 }
