@@ -1,0 +1,91 @@
+body {
+    color: white;
+}
+
+.column-container {
+    display: flex;
+    width: 100vw;
+}
+
+.column {
+    color: white;
+    width: 16.6vw;
+    height: 90vh;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+    border: #666 solid 0.5px;
+
+}
+
+#maho {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/images/maho.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#erika {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/images/erika.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#saaya {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/images/saaya.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#jun {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/images/jun.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#manatee {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url('/images/manatee.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#takumi {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .2)), url(/images/takumi.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.column:hover {
+    width: 90vw;
+    height: 90vh;
+
+}
+
+h1 {
+    background-color: rgba(0,0,0,0.3);
+}
+
+#logo {
+    width: 100vw;
+    height: 10vh;
+    margin-bottom: 0;
+    background: linear-gradient(-45deg, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(/images/members.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+#logo:hover {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(/images/members.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+    height: 75vh;
+    -webkit-transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;
+}
+
+.profile-btn {
+    position: absolute;
+    bottom: 5vh;
+}
