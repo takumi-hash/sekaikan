@@ -1,4 +1,3 @@
-@if (Auth::check())
 <!DOCTYPE html>
 <html lang="ja">
 
@@ -126,9 +125,5 @@
 
 
 </html>
-@else
-        {{ print('<h2 class="alert alert-danger"><span class="glyphicon glyphicon-ban-circle" aria-hidden="true"></span>You are not authorized for that action!</h2>')}}
-    @endif
-
 
 
