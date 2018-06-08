@@ -1,5 +1,5 @@
 <?php
-$img_dir = "images/";
+$img_dir = "members/takumi/images/";
 $img_arr = ["jellyfish", "wood", "water", "flower"];
 $index = mt_rand(0, count($img_arr)-1);
 $bg = $img_dir . $img_arr[$index] . ".jpg";
@@ -14,7 +14,7 @@ echo <<<EOF
     <title>Takumi Hashimoto</title>
     <meta name="description" content="ディスクリプション">
     <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/members/takumi/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,900" rel="stylesheet">
     <style>body {background-image: url({$bg});}</style>
 </head>
