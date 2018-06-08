@@ -31,7 +31,7 @@
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/manato">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/kymmmana/">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/profile.php?id=100007848092711">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="maho">
@@ -40,7 +40,7 @@
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/maho">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/maho143/">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/profile.php?id=100003604086115">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="saaya">
@@ -58,7 +58,7 @@
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/jun">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/junwoo593/">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/profile.php?id=100003603514429">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="takumi">
@@ -76,7 +76,7 @@
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/erika">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/erika1028/">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/profile.php?id=100004031251503">Facebook</a>
             </p>
         </div>
     </div>
