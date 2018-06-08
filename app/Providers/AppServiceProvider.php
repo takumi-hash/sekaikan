@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace SEKAIKAN\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
