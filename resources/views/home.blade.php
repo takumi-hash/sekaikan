@@ -16,6 +16,13 @@
 <body>
     <div id="logo">
         <h1 class="text-white text-center py-2"><span class="font-weight-light">TEAM</span><span class="font-weight-bold">SEKAIKAN</span></h1>
+        <a class="btn btn-outline-light d-inline" id="logout" href="{{ route('logout') }}" onclick="event.preventDefault();
+             document.getElementById('logout-form').submit();">
+            {{ __('Logout') }}
+        </a>
+        <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            @csrf
+        </form>
     </div>
     <div class="column-container">
         <div class="column p-3" id="manatee">
