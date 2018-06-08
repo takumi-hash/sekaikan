@@ -1,0 +1,425 @@
+@charset "UTF-8";
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-size: 20px;
+    font-family: "メイリオ";
+}
+
+.jumbotron-extend {
+    background: linear-gradient(-45deg, rgba(246, 255, 0, .5), rgba(255, 0, 161, .3)), url("love.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+}
+.jumbotron-extend h1 {
+    color: black;
+    font-size: 90px;
+    margin-top: 90px;
+}
+
+
+.scroll a {
+  position: absolute;
+  bottom:15%;
+  left: 50%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  text-decoration: none;
+}
+.scroll a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 46px;
+  height: 46px;
+  margin-left: -23px;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+.scroll a span::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  content: '';
+  width: 16px;
+  height: 16px;
+  margin: -12px 0 0 -8px;
+  border-left: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  box-sizing: border-box;
+}
+.scroll a span::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  content: '';
+  width: 44px;
+  height: 44px;
+  box-shadow: 0 0 0 0 rgba(255,255,255,.1);
+  border-radius: 100%;
+  opacity: 0;
+  -webkit-animation: sdb 3s infinite;
+  animation: sdb 3s infinite;
+  box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sdb {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    box-shadow: 0 0 0 60px rgba(255,255,255,.1);
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+
+
+.jumbotron-basic {
+    background: url("notebook.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "メイリオ";
+}
+.jumbotron-hobby {
+    background: url("nobby.jpeg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "メイリオ";
+}
+
+p {
+    margin-top: 0;
+    line-height: 1.6;
+    color: black;
+}
+
+table {
+    margin: 0 auto;
+    color: black;
+    border:2px;
+}
+
+th{
+	font-weight:800;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 1em;
+    text-align: center;
+}
+h3:before {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    display: inline-block;
+    width: 60px;
+    height: 5px;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: black;
+    border-radius: 2px;
+}
+
+#greeting {
+    margin-top: 170px;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    text-align: center;
+    height: 20px;
+    margin-top: -50px;
+
+}
+
+footer small {
+    display: inline-block;
+    padding: 8px 0;
+    color: black;
+    font-size: 20px;
+}
+
+.selfintro {
+    list-style-type: none;
+    line-height: 1;
+    color: black;
+    margin-top:20px;
+}
+
+.list{
+    margin-top:40px;
+}
+
+
+/*menu*/
+
+.jumbotron-nav { 
+	background:url("nav.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    font-family: "Monotype Corsiva";
+	
+}
+.cr-container{
+	width: 650px;
+	height: 450px;
+	position: relative;
+	margin: 0 auto;
+	border: 25px solid #fff;
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+	margin-bottom:20px;
+}
+
+
+.cr-container label{
+	font-style: italic;
+	width: 150px;
+	height: 30px;
+	cursor: pointer;
+	color: #fff;
+	line-height: 32px;
+	font-size: 24px;
+	float:left;
+	position: relative;
+	margin-top: 350px;
+	z-index: 1000;
+}
+.cr-container label:before{
+	content:'';
+	width: 34px;
+	height: 34px;
+	background: rgba(130,195,217,0.9);
+	position: absolute;
+	left: 50%;
+	margin-left: -17px;
+	border-radius: 50%;
+	box-shadow: 0px 0px 0px 4px rgba(255,255,255,0.3);
+	z-index:-1;
+}
+.cr-container label:after{
+	width: 1px;
+	height: 400px;
+	content: '';
+	background: linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+	position: absolute;
+	bottom: -20px;
+	right: 0px;
+}
+.cr-container label.cr-label-img-4:after{
+	width: 0px;
+}
+
+
+.cr-container input{
+	display: none;
+}
+
+.cr-container input.cr-selector-img-1:checked ~ label.cr-label-img-1,
+.cr-container input.cr-selector-img-2:checked ~ label.cr-label-img-2,
+.cr-container input.cr-selector-img-3:checked ~ label.cr-label-img-3,
+.cr-container input.cr-selector-img-4:checked ~ label.cr-label-img-4{
+	color: #68abc2;
+}
+
+.cr-container input.cr-selector-img-1:checked ~ label.cr-label-img-1:before,
+.cr-container input.cr-selector-img-2:checked ~ label.cr-label-img-2:before,
+.cr-container input.cr-selector-img-3:checked ~ label.cr-label-img-3:before,
+.cr-container input.cr-selector-img-4:checked ~ label.cr-label-img-4:before{
+	background: #fff;
+	box-shadow: 0px 0px 0px 4px rgba(104,171,194,0.6);
+}
+
+.cr-bgimg{
+	width: 600px;
+	height: 400px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 1;
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+.cr-bgimg div{
+	width: 150px;
+	height: 100%;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+.cr-bgimg div span{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: -150px;
+	z-index: 2;
+	text-indent: -9000px;
+}
+.cr-container input.cr-selector-img-1:checked ~ .cr-bgimg,
+.cr-bgimg div span:nth-child(1){
+	background-image: url("top.jpg");
+	background-size:cover;
+}
+.cr-container input.cr-selector-img-2:checked ~ .cr-bgimg,
+.cr-bgimg div span:nth-child(2){
+	background-image: url("erika tokumoto.jpg");
+	background-size:cover;
+}
+.cr-container input.cr-selector-img-3:checked ~ .cr-bgimg,
+.cr-bgimg div span:nth-child(3){
+	background-image: url(movie.jpg);
+	background-size:cover;
+}
+.cr-container input.cr-selector-img-4:checked ~ .cr-bgimg,
+.cr-bgimg div span:nth-child(4){
+	background-image: url(british.jpeg);
+    background-size:cover; }
+.cr-bgimg div:nth-child(1) span{
+	background-position: 0px 0px;
+}
+.cr-bgimg div:nth-child(2) span{
+	background-position: -150px 0px;
+}
+.cr-bgimg div:nth-child(3) span{
+	background-position: -300px 0px;
+}
+.cr-bgimg div:nth-child(4) span{
+	background-position: -450px 0px;
+}
+.cr-container input:checked ~ .cr-bgimg div span{
+	animation: slideOut 0.6s ease-in-out;
+}
+
+@keyframes slideOut{
+	0%{
+		left: 0px;
+	}
+	100%{
+		left: 150px;
+	}
+}
+
+.cr-container input.cr-selector-img-1:checked ~ .cr-bgimg div span:nth-child(1),
+.cr-container input.cr-selector-img-2:checked ~ .cr-bgimg div span:nth-child(2),
+.cr-container input.cr-selector-img-3:checked ~ .cr-bgimg div span:nth-child(3),
+.cr-container input.cr-selector-img-4:checked ~ .cr-bgimg div span:nth-child(4)
+{
+	transition: left 0.5s ease-in-out;
+	animation: none;
+	left: 0px;
+	z-index: 10;
+}
+
+.cr-titles h3{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 50%;
+	z-index: 10000;
+	opacity: 0;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+	transition: opacity 0.8s ease-in-out;
+}
+.cr-titles h3 span:nth-child(1){
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 70px;
+	display: block;
+	letter-spacing: 7px;
+}
+.cr-titles h3 span:nth-child(2){
+	letter-spacing: 0px;
+	display: block;
+	background: rgba(104,171,194,0.9);
+	font-size: 14px;
+	padding: 10px;
+	font-style: italic;
+	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+}
+.cr-container input.cr-selector-img-1:checked ~ .cr-titles h3:nth-child(1),
+.cr-container input.cr-selector-img-2:checked ~ .cr-titles h3:nth-child(2),
+.cr-container input.cr-selector-img-3:checked ~ .cr-titles h3:nth-child(3),
+.cr-container input.cr-selector-img-4:checked ~ .cr-titles h3:nth-child(4){
+	opacity: 1;
+}
+
+@media screen and (max-width: 768px) {
+	.cr-container input{
+		display: inline;
+		width: 24%;
+		margin-top: 350px;
+		z-index: 1000;
+		position: relative;
+	}
+	.cr-container label{
+		display: none;
+	}
+}

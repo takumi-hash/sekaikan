@@ -74,7 +74,7 @@
             <h2 class="font-weight-light display-4">Erika</h2>
             <p>Call me Beth.</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="/erika">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/erika1028/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>

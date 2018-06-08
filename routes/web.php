@@ -23,4 +23,5 @@ Route::group(['middleware' => ['auth']], function () {
 //    Route::resource('users', 'UsersController', ['only' => ['index', 'show']]);
 Route::get('/takumi', function () {return view('members.takumi');});
 Route::get('/saaya', function () {return view('members.saaya');});
+Route::get('/erika', function () {return view('members.erika');});
 });
