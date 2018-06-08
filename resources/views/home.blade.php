@@ -66,8 +66,8 @@
             <p>I love movies.</p>
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/takumi">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/takumi-hash/">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="facebook.com/takumi.hashimoto">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="erika">
