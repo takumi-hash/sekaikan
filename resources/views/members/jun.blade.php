@@ -27,7 +27,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  <link rel="stylesheet" href="/members/jun/style.css" type="text/css" />
+  <link rel="stylesheet" href="/members/junwoo/style.css" type="text/css" />
 
 </head>
 
@@ -113,7 +113,7 @@
 
       <div class="col-md-3">
         <div class="thumbnail">
-          <img src="/members/jun/mypictureofprofile.jpg" alt="Profile Picture">
+          <img src="/members/junwoo/mypictureofprofile.jpg" alt="Profile Picture">
           <div class="caption">
             <h3>Choi JunWoo</h3>
             <li>I was born in korea in 1993</li>
