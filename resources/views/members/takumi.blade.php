@@ -27,7 +27,7 @@ echo <<<EOF
         <a href="#" class="flex_item">About</a>
     </nav>
     <header>
-        <img src="images/sky.jpg" alt="face" class="icon">
+        <img src="members/takumi/images/sky.jpg" alt="face" class="icon">
         <h1>Hi, I'm Takumi.</h1>
         <p id="selfintro">Working for Rakuten in Tokyo, Japan.
         I love movies.</p>
