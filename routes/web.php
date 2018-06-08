@@ -26,4 +26,5 @@ Route::get('/saaya', function () {return view('members.saaya');});
 Route::get('/erika', function () {return view('members.erika');});
 Route::get('/manato', function () {return view('members.manato.welcome');});
 Route::get('/maho', function () {return view('members.maho');});
+Route::get('/jun', function () {return view('members.jun');});
 });

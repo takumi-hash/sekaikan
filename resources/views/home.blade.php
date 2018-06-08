@@ -39,7 +39,7 @@
             <p>I love coffee!</p>
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/maho">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/maho143/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
         </div>
@@ -56,8 +56,8 @@
             <h2 class="font-weight-light display-4">Jun</h2>
             <p>Call me Oppa.</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="/jun">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/junwoo593/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
         </div>
