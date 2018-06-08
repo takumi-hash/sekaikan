@@ -30,7 +30,7 @@
             <p>I am Manatee!</p>
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/kymmmana/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
         </div>
@@ -48,8 +48,8 @@
             <p>I can speak Korean.</p>
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/saaaaaaya/">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/sa.ya.snsd.pink">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="jun">
@@ -67,7 +67,7 @@
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="/takumi">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/takumi-hash/">Github</a>
-                <a class="btn btn-outline-light d-block my-1" href="facebook.com/takumi.hashimoto">Facebook</a>
+                <a class="btn btn-outline-light d-block my-1" href="///facebook.com/profile.php?id=100002450637697">Facebook</a>
             </p>
         </div>
         <div class="column p-3" id="erika">
@@ -75,7 +75,7 @@
             <p>Call me Beth.</p>
             <p class="profile-btn">
                 <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
-                <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
+                <a class="btn btn-outline-light d-block my-1" href="https://github.com/erika1028/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
         </div>
