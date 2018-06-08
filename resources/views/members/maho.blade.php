@@ -92,7 +92,7 @@
       <h1>FAVORITE</h1>
       <div class="row">
         <div class="col-4">
-          <img src="/members/maho/images/coffee.jpg"></img>
+          <img src="members/maho/images/coffee.jpg"></img>
           <p>COFFEE</p>
           <h3>ハンドドリップが好きで、ほぼ毎日自宅でコーヒーを淹れます。<br>あのコーヒーを淹れる、無心になれる時間が好きです。</h3>
         </div>
@@ -121,15 +121,15 @@
           <p>CAMBODIA</p>
         </div>
         <div class="col-3">
-          <a href="#"><img src="/members/maho/asia/images_asia/malaysia.jpg"></img></a>
+          <a href="#"><img src="/members/maho/asia/images_asia//malaysia.jpg"></img></a>
           <p>MALAYSIA</p>
         </div>
         <div class="col-3">
-          <a href="#"><img src="/members/maho/asia/images_asia/thailand.jpg"></img></a>
+          <a href="#"><img src="/members/maho/asia/images_asia//thailand.jpg"></img></a>
           <p>THAILAND</p>
         </div>
         <div class="col-3">
-          <a href="#"><img src="/members/maho/asia/images_asia/vietnam.jpg"></img></a>
+          <a href="#"><img src="/members/maho/asia/images_asia//vietnam.jpg"></img></a>
           <p>VIETNAM</p>
         </div>
        
