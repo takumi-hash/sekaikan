@@ -29,7 +29,7 @@
             <h2 class="font-weight-light display-4">Manatee</h2>
             <p>I am Manatee!</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="/manato">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/kymmmana/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
@@ -38,7 +38,7 @@
             <h2 class="font-weight-light display-4">Maho</h2>
             <p>I love coffee!</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="/maho">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
