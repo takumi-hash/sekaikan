@@ -113,7 +113,7 @@
 
       <div class="col-md-3">
         <div class="thumbnail">
-          <img src="members/jun/mypictureofprofile.jpg" alt="Profile Picture">
+          <img src="/members/jun/mypictureofprofile.jpg" alt="Profile Picture">
           <div class="caption">
             <h3>Choi JunWoo</h3>
             <li>I was born in korea in 1993</li>
