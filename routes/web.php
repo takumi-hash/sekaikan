@@ -18,3 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['auth']], function () {
+//    Route::resource('users', 'UsersController', ['only' => ['index', 'show']]);
+Route::get('/takumi', function () {return view('members.takumi');});
+});

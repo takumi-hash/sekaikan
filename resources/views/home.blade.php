@@ -65,7 +65,7 @@
             <h2 class="font-weight-light display-4">Takumi</h2>
             <p>I love movies.</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="/takumi/index.php">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="/takumi">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="#">Facebook</a>
             </p>
