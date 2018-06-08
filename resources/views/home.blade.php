@@ -47,7 +47,7 @@
             <h2 class="font-weight-light display-4">Saaya</h2>
             <p>I can speak Korean.</p>
             <p class="profile-btn">
-                <a class="btn btn-outline-light d-block my-1" href="#">Web Page</a>
+                <a class="btn btn-outline-light d-block my-1" href="/saaya">Web Page</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://github.com/saaaaaaya/">Github</a>
                 <a class="btn btn-outline-light d-block my-1" href="https://www.facebook.com/sa.ya.snsd.pink">Facebook</a>
             </p>
