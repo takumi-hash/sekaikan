@@ -16,12 +16,12 @@ $img_path2 = $image_arr[mt_rand(0, count($image_arr)-1)];
 <head>
     <meta charset="UTF-8">
     <title>ラクマ紹介ページ</title>
-    <link rel="stylesheet" href="css/website.css">
+    <link rel="stylesheet" href="/members/manato/css/website.css">
 </head>
 
 <body>
     <header>
-        <h1><a href="https://rakuma.rakuten.co.jp/home/"><img src="images/images_rakuma/rakuma-logo.jpg" alt="ラクマ"></a></h1>
+        <h1><a href="https://rakuma.rakuten.co.jp/home/"><img src="/members/manato/images/images_rakuma/rakuma-logo.jpg" alt="ラクマ"></a></h1>
         <nav id="rakuma_navi">
             <ul>
                 <li class="current"><a href="">HOME</a></li>
@@ -35,7 +35,7 @@ $img_path2 = $image_arr[mt_rand(0, count($image_arr)-1)];
     </header>
 
     <div id="main_visual">
-        <img src="images/images_rakuma/rakuma-main.png" alt="ラクマの紹介">
+        <img src="/members/manato/images/images_rakuma/rakuma-main.png" alt="ラクマの紹介">
     </div>
     <div id="wrapper" class="clearfix">
         <div id="main">
